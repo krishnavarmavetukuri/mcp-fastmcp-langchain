@@ -11,16 +11,16 @@ This repository demonstrates a FastMCP-based client-server setup with LangChain 
 ## Folder Structure
 
 mcp-fastmcp-langchain/
-├── clients/
-│ └── expense-client/
-│ ├── clientTesting.py # MCP client test script
-│ ├── mcpClientChatBot.py # Streamlit chatbot
-│ └── .env # API key placeholder (YOUR_API_KEY)
-├── servers/
-│ └── math-mcp-server/
-│ └── main.py # Local MCP server
-├── uv.toml # Unified dependencies
-└── .gitignore
+├── **clients/**
+│   └── **expense-client/**
+│       ├── clientTesting.py
+│       ├── mcpClientChatBot.py
+│       └── **.env**
+├── **servers/**
+│   └── **math-mcp-server/**
+│       └── main.py
+├── **uv.toml**
+└── **.gitignore**
 
 
 
