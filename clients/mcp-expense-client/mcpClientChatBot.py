@@ -42,7 +42,7 @@ SERVERS = {
             "run",
             "fastmcp",
             "run",
-            "mcp-math-server/main.py"
+            "servers/mcp-math-server/main.py"
        ]
     },
     "expense": {
