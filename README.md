@@ -10,18 +10,21 @@ This repository demonstrates a FastMCP-based client-server setup with LangChain 
 
 ## Folder Structure
 
+## Folder Structure
+
+```
 mcp-fastmcp-langchain/
-├── **clients/**
-│   └── **expense-client/**
+├── clients/
+│   └── expense-client/
 │       ├── clientTesting.py
 │       ├── mcpClientChatBot.py
-│       └── **.env**
-├── **servers/**
-│   └── **math-mcp-server/**
+│       └── .env
+├── servers/
+│   └── math-mcp-server/
 │       └── main.py
-├── **uv.toml**
-└── **.gitignore**
-
+├── uv.toml
+└── .gitignore
+```
 
 
 ---
